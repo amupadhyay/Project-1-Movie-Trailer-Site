@@ -89,6 +89,13 @@ main_page_head = '''
 # The main page layout and title bar
 main_page_content = '''
   <body>
+      <div class="container">
+      <div class="well">
+      <div class="text-primary text-center">
+  <h1>The Best Movies Ever!<h1>
+  </div>
+  </div>
+  </div>
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
@@ -124,7 +131,8 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <hr><button type="button" class="btn btn-primary btn-lg btn-block">{movie_title}</button>
+<hr>
 </div>
 '''
 
