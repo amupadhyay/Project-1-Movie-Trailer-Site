@@ -12,3 +12,6 @@
     - a HTML file will be generated for viewing
     - the HTML file will open in your default browser automatically by your operating system
     - To open the file manually, navigate to the generated HTML file in the same directory and open it with your preferred browser
+# Live Demo
+[Movie Trailer](https://kscott.co/project2)
+
